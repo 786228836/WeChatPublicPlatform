@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transition	al//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+	    Hello World!!!! 
+	    <script type="text/javascript" src="./jquery-1.11.2.min.js"></script>
+	    <script type="text/javascript">
+	    $(document).ready(function(){
+	    	var url = location.search;
+	    	if (url.indexOf("?") != -1) {
+	    	      var str = url.substr(1);
+	    	      strs = str.split("&");
+	    	      var code = strs[0].replace("code=","");
+	    	    
+	    	      $.get("https://api.weixin.qq.com/sns/oauth2/access_token?appid=wx8cc813db338acc33&secret=8c86bbf68906e0ddd6777e084c727d3e&code="+code+"&grant_type=authorization_code",{code:code},function(result){
+	    	          
+	    	      });
+	    	      
+	    	     
+	    	      
+	    	      
+	    	    
+	    	      
+	    	   }
+	    
+	    	
+	    	
+	    	});
+	    </script>
+	</body>
+</html> 

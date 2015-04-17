@@ -1,0 +1,56 @@
+[ERROR] 2015-01-14 15:00:15,964                   com.test.WeixinUtil     - Weixin server connection timed out.
+[ERROR] 2015-01-14 15:04:57,180                   com.test.WeixinUtil     - Weixin server connection timed out.
+[ERROR] 2015-01-14 15:05:25,210                   com.test.WeixinUtil     - Weixin server connection timed out.
+[ERROR] 2015-01-14 15:07:24,263                   com.test.WeixinUtil     - Weixin server connection timed out.
+[ERROR] 2015-01-14 15:09:28,979                   com.test.WeixinUtil     - Weixin server connection timed out.
+[ERROR] 2015-01-14 15:09:59,749                   com.test.WeixinUtil     - Weixin server connection timed out.
+[ERROR] 2015-01-14 15:12:15,109                   com.test.WeixinUtil     - Weixin server connection timed out.
+[ERROR] 2015-01-14 15:32:23,374                   com.test.WeixinUtil     - Weixin server connection timed out.
+[ERROR] 2015-01-14 15:37:19,932                   com.test.WeixinUtil     - Weixin server connection timed out.
+[ERROR] 2015-01-14 15:39:19,526                   com.test.WeixinUtil     - https request error:{}
+java.lang.ClassCastException: sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+	at com.test.WeixinUtil.httpRequest(WeixinUtil.java:51)
+	at com.test.WeixinUtil.getAccessToken(WeixinUtil.java:106)
+	at com.test.menu.MenuManager.main(MenuManager.java:18)
+[ERROR] 2015-01-14 15:40:01,701                   com.test.WeixinUtil     - Weixin server connection timed out.
+[ERROR] 2015-01-14 15:41:34,018                   com.test.WeixinUtil     - https request error:{}
+java.lang.ClassCastException: sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+	at com.test.WeixinUtil.httpRequest(WeixinUtil.java:51)
+	at com.test.WeixinUtil.getAccessToken(WeixinUtil.java:106)
+	at com.test.menu.MenuManager.main(MenuManager.java:18)
+[ERROR] 2015-01-14 15:41:56,993                   com.test.WeixinUtil     - https request error:{}
+java.lang.ClassCastException: sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+	at com.test.WeixinUtil.httpRequest(WeixinUtil.java:51)
+	at com.test.WeixinUtil.getAccessToken(WeixinUtil.java:106)
+	at com.test.menu.MenuManager.main(MenuManager.java:18)
+[ERROR] 2015-01-14 15:42:39,617                   com.test.WeixinUtil     - Weixin server connection timed out.
+[ERROR] 2015-01-14 15:47:06,233                   com.test.WeixinUtil     - Weixin server connection timed out.
+[ERROR] 2015-01-14 15:59:31,676                   com.test.WeixinUtil     - Weixin server connection timed out.
+[INFO ] 2015-01-14 15:59:31,676             com.test.menu.MenuManager     - 菜单创建成功！
+[ERROR] 2015-01-14 16:01:10,600                   com.test.WeixinUtil     - Weixin server connection timed out.
+[INFO ] 2015-01-14 16:03:32,896             com.test.menu.MenuManager     - 菜单创建成功！
+[ERROR] 2015-01-14 16:13:30,376                   com.test.WeixinUtil     - Weixin server connection timed out.
+[INFO ] 2015-01-14 16:13:30,376             com.test.menu.MenuManager     - 菜单创建成功！
+[ERROR] 2015-01-14 16:27:34,274                   com.test.WeixinUtil     - Weixin server connection timed out.
+[INFO ] 2015-01-14 16:27:34,274             com.test.menu.MenuManager     - 菜单创建成功！
+[ERROR] 2015-01-14 16:28:27,358                   com.test.WeixinUtil     - Weixin server connection timed out.
+[INFO ] 2015-01-14 16:28:27,358             com.test.menu.MenuManager     - 菜单创建成功！
+[ERROR] 2015-01-14 16:30:01,036                   com.test.WeixinUtil     - Weixin server connection timed out.
+[INFO ] 2015-01-14 16:30:01,036             com.test.menu.MenuManager     - 菜单创建成功！
+[ERROR] 2015-01-14 16:32:40,731                   com.test.WeixinUtil     - Weixin server connection timed out.
+[INFO ] 2015-01-14 16:32:40,731             com.test.menu.MenuManager     - 菜单创建成功！
+[ERROR] 2015-01-14 16:33:43,409                   com.test.WeixinUtil     - Weixin server connection timed out.
+[INFO ] 2015-01-14 16:33:43,409             com.test.menu.MenuManager     - 菜单创建成功！
+[ERROR] 2015-01-14 16:35:08,954                   com.test.WeixinUtil     - Weixin server connection timed out.
+[INFO ] 2015-01-14 16:35:08,954             com.test.menu.MenuManager     - 菜单创建成功！
+[ERROR] 2015-01-14 16:35:29,124                   com.test.WeixinUtil     - Weixin server connection timed out.
+[INFO ] 2015-01-14 16:35:29,124             com.test.menu.MenuManager     - 菜单创建成功！
+[INFO ] 2015-01-14 16:36:21,095             com.test.menu.MenuManager     - 菜单创建成功！
+[INFO ] 2015-01-14 16:37:26,848             com.test.menu.MenuManager     - 菜单创建成功！
+[INFO ] 2015-01-14 16:40:18,282             com.test.menu.MenuManager     - 菜单创建成功！
+[INFO ] 2015-01-14 16:40:35,804             com.test.menu.MenuManager     - 菜单创建成功！
+[INFO ] 2015-01-14 16:40:57,449             com.test.menu.MenuManager     - 菜单创建成功！
+[INFO ] 2015-01-14 16:48:14,974             com.test.menu.MenuManager     - 菜单创建成功！
+[INFO ] 2015-01-14 16:53:22,738             com.test.menu.MenuManager     - 菜单创建成功！
+[INFO ] 2015-01-14 17:02:20,765             com.test.menu.MenuManager     - 菜单创建失败，错误码：-1
+[INFO ] 2015-01-14 17:02:43,609             com.test.menu.MenuManager     - 菜单创建成功！
